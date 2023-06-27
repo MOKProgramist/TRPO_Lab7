@@ -16,5 +16,8 @@ namespace Lab7
 
         [OperationContract]
         double Number20(double x, double y);
+
+        [OperationContract]
+        double Number22(double x, double y);
     }
 }
