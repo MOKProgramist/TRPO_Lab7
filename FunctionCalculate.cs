@@ -14,14 +14,14 @@ namespace Lab7
         public double Number8(double x, double y)
         {
            double result = (7 * x + 3 * y) * 4.5;
-            Console.WriteLine($"Number20: ({x}, {y})");
+            Console.WriteLine($"Number20: ({x}, {y}) = result: {result}");
             return result;
         }
 
         public double Number20(double x, double y)
         {
             double result = (2 * (5 * x + 6 * y) / 5);
-            Console.WriteLine($"Number8: ({x}, {y})");
+            Console.WriteLine($"Number8: ({x}, {y}) = result: {result}");
             return result;
         }
     }
